@@ -104,11 +104,11 @@ exports.addUser = async (request, response) => {
         }
       })
   
-      if (userEmail != null ){
-        return response.json({
-          message: "Email sudah ada"
-        })
-      }
+      // if (userEmail != null ){
+      //   return response.json({
+      //     message: "Email sudah ada"
+      //   })
+      // }
       
       if (error) {
         return response.json({ message: error });
